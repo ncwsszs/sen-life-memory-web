@@ -35,11 +35,11 @@
         <v-scroll-x-transition>
         <v-btn elevation="4" id="menu-activator"
 
-               style="z-index:999;position:absolute;bottom: 20px;right: 30px;" :icon="!isActiveMenu?'mdi-arrow-up':'mdi-arrow-down'" variant="tonal">
+               style="z-index:999;position:absolute;bottom: 20px;right: 30px;" :icon="!isActiveMenu?'mdi-arrow-up':'mdi-arrow-down'" >
         </v-btn>
         </v-scroll-x-transition>
 
-        <v-menu v-model="isActiveMenu" activator="#menu-activator" opacity="0.5">
+        <v-menu v-model="isActiveMenu" activator="#menu-activator" >
           <v-btn elevation="4" style="margin-bottom: 10px" icon="mdi-plus" variant="tonal">
           </v-btn>
           <v-btn elevation="4" style="margin-bottom: 10px" icon="mdi-plus" variant="tonal">
